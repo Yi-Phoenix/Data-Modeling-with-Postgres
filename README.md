@@ -8,7 +8,8 @@
     The company wants to create a Postgres database schema and ETL pipeline for this analysis. 
   
 2. Methods
-ER: ![Alt] (/ER.png)
+
+ER: ![Alt] (/ER.png "Title")
   * `create_tables.py`
     
     The script connects to the Sparkify database, drops any tables if they exist, and creates the tables
