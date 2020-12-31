@@ -9,13 +9,13 @@
   
 2. Methods
 
-    ![ER diagram](ER.png)
   * `create_tables.py`
     
     The script connects to the Sparkify database, drops any tables if they exist, and creates the tables
   * `sql_queries.py`
     
-    The scirpt specify all columns for each of the five tables (`songplays`, `users`, `songs`, `artists`, `time`)
+    The scirpt specify all columns for each of the five tables (`songplays`, `users`, `songs`, `artists`, `time`). The ER diagram is shown below:
+    ![ER diagram](ER.png)
   * `etl.py`
     
     The script connects to the Sparkify database, extracts and processes the `log_data` and `song_data`, and insert data into the five tables.
