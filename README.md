@@ -14,7 +14,8 @@
     The script connects to the Sparkify database, drops any tables if they exist, and creates the tables
   * `sql_queries.py`
     
-    The scirpt specify all columns for each of the five tables (`songplays`, `users`, `songs`, `artists`, `time`). The ER diagram is shown below:
+    The scirpt specify all columns for each of the five tables (`songplays`, `users`, `songs`, `artists`, `time`). 
+    The ER diagram is shown below:
     ![ER diagram](ER.png)
   * `etl.py`
     
@@ -28,3 +29,10 @@
     - os
     - glob
  * PostgreSQL
+ 
+ 
+4. How to run the scripts
+
+    First run `create_tables.py`, then run `etl.py`.
+
+    
