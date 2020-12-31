@@ -9,7 +9,7 @@
   
 2. Methods
 
-ER: ![Alt] (/ER.png "Title")
+ER: ![Alt] (ER.png)
   * `create_tables.py`
     
     The script connects to the Sparkify database, drops any tables if they exist, and creates the tables
